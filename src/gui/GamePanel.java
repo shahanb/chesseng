@@ -4,7 +4,6 @@ import piece.*;
 
 import javax.swing.JPanel;
 import java.awt.*;
-import java.awt.event.MouseMotionAdapter;
 import java.util.ArrayList;
 
 public class GamePanel extends JPanel implements Runnable
@@ -17,8 +16,8 @@ public class GamePanel extends JPanel implements Runnable
     Mouse mouse = new Mouse();
 
     //PIECES
-    public static ArrayList<Piece> pieces = new ArrayList<Piece>();
-    public static ArrayList<Piece> simPieces = new ArrayList<Piece>();
+    public static ArrayList<Piece> pieces = new ArrayList<>();
+    public static ArrayList<Piece> simPieces = new ArrayList<>();
     Piece activeP;
 
     //COLOR
